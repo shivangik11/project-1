@@ -1,0 +1,59 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
+<script type="text/javascript"src="script.js"></script>
+<title>LookBook</title>
+<img src="logo.png" href="index.html" alt="logo">  
+</head>
+
+<body>
+<div id="container"class="box-1"> 
+
+   <h2>Design Button</h2>
+
+   <!-- color  -->
+   <div class="bg-color">
+    <label for="colorpicker">Select button color</label>
+    <input type="color" id="buttonColor" value="#FFFFFF">
+    </div>
+
+   <!-- font type -->
+   <div class="heading-font">
+   <label for="values"> Select font type </label>
+   <select id="buttonFontStyle">
+   <option value="poppins">Poppins</option>
+    <option value="Ariel">Ariel</option>
+    <option value="helvetica">Helvetica</option>
+    <option value="roboto" selected>Roboto</option>
+    <option value="pacifico">Pacifico</option>
+    <option value="papyrus">Papyrus</option>
+    </select>
+   </div>
+  
+   <!--  font size-->
+  <div class="font-size">
+   <label for="values">Select font size </label>
+   <select id="buttonFontSize">
+    <option value="14px">18px</option>
+    <option value="16px">20px</option>
+    <option value="18px"selected>22px</option>
+    <option value="20px">24px</option>
+    <option value="22px">26px</option>
+  </select>
+  </div>
+
+  <div class="next">
+    <a type="button" href="login.html" onclick="getButton()"> Next</a> 
+  </div>
+ 
+  </div>
+
+  
+  
+</body>
+</html>
